@@ -1,0 +1,35 @@
+.container-fluid {
+    background-color: #CEEDE2;
+}
+
+
+
+
+ .navbar-nav.nav-justified > li{
+    float:none;
+     background-color: #CEEDE2;
+}
+
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color:#24915A;
+    font-size:4em;
+    font-weight:600;
+    text-align: center;
+    font-family: LoveloBlack;
+}
+
+input.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-family: Roboto;
+  font-weight: 100;
+}
+input.form-control:-moz-placeholder, textarea:-moz-placeholder {
+  font-family: Roboto;
+  font-weight: 100;
+}
+
