@@ -21,6 +21,14 @@ h1{
     font-family: LoveloBlack;
 }
 
+h5{
+   color:white;
+    font-size:4em;
+    font-weight:600;
+    text-align: center;
+    font-family: LoveloBlack;
+}
+
 h2{
   color:white;
   font-size:2em;
@@ -121,8 +129,18 @@ input.form-control:-moz-placeholder{
   border-color:#3A863F;
 }
 
-li {
-  color: #25955F;
+
+li#styledlist{
+  color:#25955F;
+  font-weight: 200;
+  font-size: x-large;
+  font-family: Roboto;
+  text-align: center;
+}
+
+li#styledlist2{
+  color:white;
+  background-color:#39833D;
   font-weight: 200;
   font-size: x-large;
   font-family: Roboto;
@@ -130,7 +148,7 @@ li {
 }
 
 #textbox {
-   width: 22em;
+  width: 22em;
   height:2.5em;
   display: inline;
   margin-left:30em;
@@ -145,4 +163,19 @@ li {
   margin-right:35em;
   margin-bottom: 5em;
   border-radius: 0em;
+}
+
+#Button4{
+  background-color: white;
+  color:#238B53;
+  font-family: Roboto;
+  font-size:large;
+  font-weight: 200;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  border-radius: 0.5em;
+  border-style: solid;
+  border-width: 0.1em;
 }
