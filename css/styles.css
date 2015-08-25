@@ -7,10 +7,11 @@
      background-color: #CEEDE2;
 }
 
-img.displayed {
+#displayed {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    left: 50%;
 }
 h1{
     color:#24915A;
@@ -20,12 +21,128 @@ h1{
     font-family: LoveloBlack;
 }
 
-input.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+h2{
+  color:white;
+  font-size:2em;
+  font-weight:400;
+  background-color: #4FB88F;
+  display: inline;
   font-family: Roboto;
-  font-weight: 100;
-}
-input.form-control:-moz-placeholder, textarea:-moz-placeholder {
-  font-family: Roboto;
-  font-weight: 100;
+  padding-left: 0.2em;
+  padding-right:  0.2em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
 }
 
+h4{
+  color:white;
+  font-size:2em;
+  font-weight:400;
+  display: inline;
+  font-family: Roboto;
+  padding-left: 0.2em;
+  padding-right:  0.2em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+h3{
+  color:white;
+  font-size:2em;
+  font-weight:400;
+  display: inline;
+  font-family: Roboto;
+  padding-left: 0.2em;
+    padding-right:  0.2em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+input[type=text], input[type=password] {
+   border-radius: 0.5em;
+}
+
+input[type=text]{
+  width:12.5em;
+  height:2.5em;
+  display: inline;
+  margin-right:1em;
+  margin-left:20em;
+  line-height: 1em;
+}
+
+input[type=password]{
+  width:12.5em;
+  height:2.5em;
+  display: inline;
+  margin-left:1em;
+  line-height: 1em;
+}
+
+
+input.form-control::-webkit-input-placeholder{
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: x-large;
+  padding-bottom:7em;
+}
+input.form-control:-moz-placeholder{
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: x-large;
+  padding-bottom:7em;
+}
+
+#Button1 {
+    color:white;
+    background-color: #3A863F;
+    font-size:x-large;
+    font-family: LoveloBlack;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 0.5em;
+}
+
+#Button2{
+  background-color: white;
+  color:#25955F;
+  font-family: Roboto;
+  font-size:x-large;
+  font-weight: 200;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  border-radius: 0.5em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color:#3A863F;
+}
+
+li {
+  color: #25955F;
+  font-weight: 200;
+  font-size: x-large;
+  font-family: Roboto;
+  text-align: center;
+}
+
+#textbox {
+   width: 22em;
+  height:2.5em;
+  display: inline;
+  margin-left:30em;
+  line-height: 1.3em;
+  border-radius: 0em;
+}
+
+#Button3 {
+  color:white;
+  background-color: #4FB88F;
+  font-family: Roboto;
+  margin-right:35em;
+  margin-bottom: 5em;
+  border-radius: 0em;
+}
