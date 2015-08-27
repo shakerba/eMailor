@@ -242,3 +242,10 @@ li#styledlist2{
 .social .fa-linkedin:hover { /* round linkedin icon*/
     background: #0094BC;
 }
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
