@@ -100,6 +100,7 @@ input.form-control:-moz-placeholder{
   padding-bottom:7em;
 }
 
+
 #Button1 {
     color:white;
     background-color: #3A863F;
@@ -243,7 +244,10 @@ li#styledlist2{
     background: #0094BC;
 }
 
-.navbar-brand {
+.navbar {
+    position: relative;
+}
+.brand {
     position: absolute;
     left: 50%;
     margin-left: -50px !important;  /* 50% of your logo width */
